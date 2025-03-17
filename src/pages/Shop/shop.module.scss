@@ -1,0 +1,17 @@
+
+  .menuContainer {
+    position: absolute;
+    top: 70px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    column-gap: 50px;
+    row-gap: 25px;
+  
+    @media screen and (max-width: 1500px) {
+      grid-template-columns: 500px 500px;
+    }
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: 500px;
+    }
+  }
+  

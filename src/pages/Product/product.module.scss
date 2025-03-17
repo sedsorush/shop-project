@@ -1,0 +1,84 @@
+.descriptives {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  .text {
+    background-color: #f0f0f09d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    button {
+      background-color: #181818;
+      color: #ccc;
+      transition: all 250ms;
+
+      &:hover {
+        background-color: #000000;
+        color: #fff;
+        scale: 1.05;
+      }
+      &:active {
+        scale: 0.95;
+      }
+    }
+  }
+  .imageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #f0f0f09d;
+    border-radius: 8px;
+    width: 50%;
+
+    .mainImage {
+      width: 250px;
+      height: 250px;
+
+      transition: all 500ms;
+
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+
+    .imageGallery {
+      display: flex;
+      transition: all 500ms;
+
+      img {
+        width: 75px;
+        height: 75px;
+        &:hover {
+          scale: 1.1;
+        }
+      }
+    }
+  }
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 10px;
+  margin: 20px;
+  height: 200px;
+  align-items: center;
+  background-color: #f0f0f09d;
+  border-radius: 8px;
+
+  div {
+    width: auto;
+  }
+}

@@ -1,0 +1,15 @@
+.loader {
+  scale: 2.5;
+  animation: spinner 1s linear infinite;
+  position: fixed;
+  top: 350px;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
