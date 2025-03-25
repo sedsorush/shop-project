@@ -82,3 +82,45 @@
     width: auto;
   }
 }
+
+@media screen and (max-width:1000px) {
+
+  .productContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    margin: 0;
+  }
+
+  .descriptives {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .imageBox{
+      width: 100%;
+    }
+    .text{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:750px) {
+
+  .reviews {
+    width: 92%;
+  }
+  
+}

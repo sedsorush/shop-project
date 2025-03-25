@@ -47,7 +47,7 @@ const Product = () => {
 
   if (load) return <Loader />;
   return (
-    <div>
+    <div className={styles.productContainer}>
       <div className={styles.descriptives}>
         <div className={styles.imageBox}>
           <div className={styles.mainImage}>
