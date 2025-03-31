@@ -19,6 +19,7 @@
       background-color: #181818;
       color: #ccc;
       transition: all 250ms;
+      margin-top: 15px;
 
       &:hover {
         background-color: #000000;
@@ -96,6 +97,7 @@
   .reviews {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     height: auto;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -123,4 +125,10 @@
     width: 92%;
   }
   
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -55,6 +55,9 @@
 
 @media screen and (max-width:560px) {
   .headerContainer {
-    font-size: small;
+    font-size: smaller;    
+  }
+  .links {
+    display: none;
   }
 }

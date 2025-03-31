@@ -64,7 +64,7 @@ const Product = () => {
           <strong>{product.category}</strong>
           <h3>{product.price}$</h3>
           <p>{product.description}</p>
-          <div>
+          <div className={styles.buttonContainer}>
             <button onClick={onClick}>Add To Cart</button>
           </div>
         </div>

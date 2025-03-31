@@ -33,7 +33,7 @@ const Header = () => {
           />
           <span>{auth ? cartItems?.length : 0}</span>
         </li>
-        <li>
+        <li className={styles.links}>
           <NavLink
             className={({ isActive }) =>
               isActive ? "text-[#000000] font-semibold" : ""
@@ -42,7 +42,7 @@ const Header = () => {
             Home
           </NavLink>
         </li>
-        <li>
+        <li className={styles.links}>
           <NavLink
             className={({ isActive }) =>
               isActive ? "text-[#000000] font-semibold" : ""
@@ -51,7 +51,7 @@ const Header = () => {
             Shop
           </NavLink>
         </li>
-        <li>
+        <li className={styles.links}>
           <NavLink
             className={({ isActive }) =>
               isActive ? "text-[#000000] font-semibold" : ""

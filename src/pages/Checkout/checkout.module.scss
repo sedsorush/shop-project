@@ -1,5 +1,4 @@
 .checkout {
-  position: absolute;
   top: 70px;
   width: 100%;
   display: flex;
@@ -69,6 +68,28 @@
 
     h1 {
       border-bottom: #5f5f5f 1px solid;
+    }
+  }
+}
+
+@media screen and (max-width:1420px) {
+  .checkout {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    .cartContainer {
+      display: flex;
+      .cart {
+        flex-wrap: wrap;
+      }
+      .itemInTheCart {
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+      }
+    }
+    .bill {
+      background-color: #eee;
+      width: 75%;
     }
   }
 }
